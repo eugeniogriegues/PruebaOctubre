@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNombreAlbum"
+        android:layout_marginTop="-62dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:text="ID: 1" />
+
+    <TextView
+        android:id="@+id/tvNombreAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:text="NOMBRE ALBUM" />
+
+</RelativeLayout>
